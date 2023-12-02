@@ -1,0 +1,39 @@
+Comandos:
+    > Criar a aplicação
+        - django-admin startproject nomeProjeto .
+    > Criar um app
+        - django-admin createapp
+    > Atualizar o banco de dados de forma dinâmica. 
+      Sempre que você for atualizar o banco de dados é necessário rodar esses dois comandos abaixo:
+        - python manage.py makemigrations (salvar as atualizações/mudanças que você fez)
+        - python manage.py migrate (aplicar as mudanças que você fez)
+    > Criar o super user (só precisa fazer isso uma vez)
+        - python manage.py createsuperuser
+        
+
+Conta: meu email e senha 1235
+
+Esboço:
+
+- Homepage
+
+- Login e Crar Conta (Usuário e Autenticação)
+    - Email
+    - Username
+    - Senha
+    - Filmes já vistos
+    - Editar Perfil
+
+- Filmes/Séries
+    - Thumb
+    - Título
+    - Descrição
+    - Categoria
+    - Quantidade de views
+    - Data de criação
+    - Episódios
+        -Videos (link)
+        - Titulo
+        - FK
+
+- Barra de pesquisa
